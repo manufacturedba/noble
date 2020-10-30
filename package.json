@@ -33,6 +33,7 @@
     "win32"
   ],
   "dependencies": {
+    "bluetooth-hci-socket": "git+https://github.com/manufacturedba/node-bluetooth-hci-socket.git",
     "debug": "~2.2.0"
   },
   "optionalDependencies": {
@@ -41,7 +42,6 @@
   },
   "devDependencies": {
     "async": "~0.2.9",
-    "bluetooth-hci-socket": "github:manufacturedba/node-bluetooth-hci-socket",
     "jshint": "latest",
     "mocha": "~1.8.2",
     "should": "~1.2.2",
